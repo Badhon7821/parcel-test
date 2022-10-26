@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Tailwind exploring</title>
+</head>
+<body class="bg-gray-200">
+  <section class="bg-gray-300">
+    <nav class="container mx-auto  flex justify-between items-center py-4">
+      <div class="logo">
+        <h1 class="text-2xl">Burger<span class="text-orange-400 font-semibold capitalize">House</span></h1>
+      </div>
+      <ul class="flex gap-4">
+        <li><a href="#" class="capitalize text-orange-400 hover:text-orange-400 duration-300" >Home</a></li>
+        <li><a href="#" class="capitalize hover:text-orange-400 duration-300" >Burgers</a></li>
+        <li><a href="#" class="capitalize hover:text-orange-400 duration-300" >About us</a></li>
+        <li><a href="#" class="capitalize hover:text-orange-400 duration-300" >Review</a></li>
+        <li><a href="#" class="capitalize hover:text-orange-400 duration-300" >Contact us</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <main>
+    <div class="card-wrapper container mx-auto py-10">
+      <div class="card rounded-md w-80 overflow-hidden bg-white shadow-md">
+        <div class="card-image h-48 overflow-hidden flex justify-center items-center">
+          <img src="../burger.jpg" alt="" class="block w-full">
+        </div>
+        <div class="card-text flex flex-col gap-2 py-5 px-4 items-start">
+          <h2 class="text-2xl text-orange-400 font-semibold" >Chicken cheese burger</h2>
+          <p>BDT.200</p>
+          <a  class="bg-orange-500 text-white py-2 px-4 rounded-md uppercase font-semibold mt-2 hover:bg-gray-700 duration-300" href="#">eat now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
